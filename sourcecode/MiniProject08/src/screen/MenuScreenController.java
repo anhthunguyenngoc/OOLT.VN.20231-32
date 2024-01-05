@@ -24,6 +24,7 @@ public class MenuScreenController {
     @FXML
     private Button quitBtn;
     @FXML
+    
     public void initialize() {
     }
     @FXML
