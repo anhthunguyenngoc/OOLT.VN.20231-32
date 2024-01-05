@@ -61,9 +61,11 @@ public class MenuScreen extends Application{
 			e.printStackTrace();
 		}
 	}
-	
-	public static void main (String[] arg) {
-		launch(arg);
+	public static void main(String[] args) {
+		System.out.print("123");
 	}
+//	public static void main (String[] arg) {
+//		launch(arg);
+//	}
 	
 }
