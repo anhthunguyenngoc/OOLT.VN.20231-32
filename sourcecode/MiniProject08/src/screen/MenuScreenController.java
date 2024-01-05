@@ -17,7 +17,6 @@ public class MenuScreenController {
     private Stage stage;
     private Scene scene;
     private Parent root;
-    
     @FXML
     private Button playBtn;
     @FXML
