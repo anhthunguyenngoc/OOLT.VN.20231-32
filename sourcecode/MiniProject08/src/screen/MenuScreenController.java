@@ -13,6 +13,7 @@ import javafx.stage.Stage;
 import javafx.fxml.FXMLLoader;
 
 public class MenuScreenController {
+    
     private Stage stage;
     private Scene scene;
     private Parent root;
