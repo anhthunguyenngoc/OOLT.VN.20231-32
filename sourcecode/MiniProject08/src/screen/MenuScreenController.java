@@ -18,7 +18,7 @@ public class MenuScreenController {
     private Scene scene;
     private Parent root;
 
-     @FXML
+    @FXML
     private Button playBtn;
     @FXML
     private Button ruleBtn;
@@ -29,14 +29,12 @@ public class MenuScreenController {
     }
     @FXML
     private void playBtnClicked() throws IOException {
-            try{
             FXMLLoader loader = new FXMLLoader(getClass().getResource("play.fxml"));
             Scene playScene = new Scene(loader.load());
 
             Stage stage = (Stage) playBtn.getScene().getWindow();
             stage.setScene(playScene);
             stage.show();
-            }
     }
     @FXML
     private void ruleBtnClicked(ActionEvent event) throws IOException {
