@@ -18,24 +18,19 @@ public class MenuScreenController {
     private Scene scene;
     private Parent root;
 
+
+    
     @FXML
-    private Button playButton;
-     @FXML
     private Button playBtn;
     @FXML
-    private Button ruleButton;
-    @FXML
     private Button ruleBtn;
-    @FXML
-    private Button quitButton;
     @FXML
     private Button quitBtn;
     @FXML
     public void initialize() {
     }
-
+    @FXML
     private void playBtnClicked() throws IOException {
-
             FXMLLoader loader = new FXMLLoader(getClass().getResource("play.fxml"));
             Scene playScene = new Scene(loader.load());
 
@@ -43,7 +38,7 @@ public class MenuScreenController {
             stage.setScene(playScene);
             stage.show();
     }
-
+    @FXML
     private void ruleBtnClicked(ActionEvent event) throws IOException {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("rule.fxml"));
             Parent ruleScreen = loader.load();
@@ -54,6 +49,7 @@ public class MenuScreenController {
             stage.show();
     
     }
+    @FXML
     private void quitBtnClicked(ActionEvent event) {
         Alert alert = new Alert(AlertType.CONFIRMATION);
         alert.setTitle("Quit");
